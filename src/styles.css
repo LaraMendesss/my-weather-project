@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://res-console.cloudinary.com/dnmdqm4l1/thumbnails/v1/image/upload/v1696992697/c3VubnlkYXlfeHV1ZDl0/grid_landscape);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .box {
+    text-align: center;
+    display: block;
+    margin: 150px auto 0 auto;
+    padding-top: 10px;
+    border-color: rgb(0, 111, 255);
+    border-style: solid 80%;
+    border-width: 4px;
+    border-radius: 5px;
+    width: 800px;
+    height: 450px;
+    background: white;
+  }
+  h1 {
+    color: rgb(90, 98, 117);
+    margin: 25px 0 10px 75px;
+    text-align: left;
+  }
+  h6 {
+    color: rgb(136, 134, 134);
+    font-size: 18px;
+    margin: 0 0 10px 75px;
+    text-align: left;
+  }
+  
+  .details {
+    display: flex;
+    justify-content: left;
+  }
+  .searchers {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: left;
+  }
+  .icon {
+    text-align: left;
+    margin-left: 70px;
+  }
+  .temperatura {
+    font-size: 45px;
+    color: rgb(90, 98, 117);
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 15px;
+  }
+  .description {
+    color: rgb(0, 111, 255);
+    font-size: 20px;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 25px;
+  }
+  .descrp2 {
+    color: rgb(136, 134, 134);
+    font-size: 14px;
+    padding-top: 5px;
+  }
+  
+  .btn-success {
+    background-color: rgb(104, 207, 59);
+    border: none;
+    color: white;
+    font-weight: bolder;
+    margin: 25px 20px 5px 10px;
+    padding: 13px 20px;
+    text-align: center;
+    border-radius: 7px;
+    box-shadow: none;
+    font-size: 16px;
+  }
+  .btn-primary {
+    font-weight: bolder;
+    margin: 25px 20px 5px 10px;
+    padding: 13px 20px;
+    text-align: center;
+    border-radius: 7px;
+    color: white;
+    background-color: rgb(0, 111, 255);
+    border: none;
+    font-size: 16px;
+  }
+  
+  .btn-primary:hover {
+    cursor: pointer;
+    background-color: rgb(4, 99, 223);
+  }
+  .btn-success:hover {
+    background-color: rgb(93, 187, 52);
+    border-color: rgb(93, 187, 52);
+    color: white;
+    cursor: pointer;
+  }
+  .col-md-1 {
+    font-size: 14px;
+    color: rgb(136, 134, 134);
+    text-align: center;
+  }
+  .week {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .units {
+    font-size: 18px;
+    font-weight: bolder;
+    color: rgb(90, 98, 117);
+  }
+  .clima {
+    width: 50px;
+  }
+  p {
+    color: black;
+    font-size: 13px;
+    text-align: center;
+  }
+  
+  .form-control {
+    color: rgb(136, 134, 134);
+    border-width: 4px;
+    border-radius: 7px;
+    border-color: rgb(0, 111, 255);
+    text-align: left;
+    margin: 25px 20px 5px 65px;
+    padding: 10px 90px 10px 5px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+    border-style: solid;
+  }
+  input[type="text"]::placeholder {
+    color: rgb(0, 111, 255);
+    border-color: rgb(0, 111, 255);
+    font-size: 16px;
+  }
+  input[type="text"]:focus {
+    box-shadow: rgb(0, 111, 255);
+    border-color: rgb(0, 111, 255);
+    outline-color: rgb(0, 111, 255);
+    font-size: 16px;
+  }
+  

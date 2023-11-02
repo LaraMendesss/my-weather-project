@@ -1,11 +1,146 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lara Website</title>
-</head>
-<body>
+<html>
+  <head>
+    <title>Lara's Weather Site</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js">
+    </script>
+  </head>
+  <body>
+    <div class="box">
+      <div class="container">
+        <div class="searchers">
+          <div class="col-6">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Enter your City"
+              aria-label="City"
+              id="search-text-input"
+            />
+          </div>
+          <div class="col-1">
+            <button type="button" class="btn btn-primary" id="find">
+              Search
+            </button>
+          </div>
+          <div class="col-4">
+            <button type="button" class="btn btn-success">Current</button>
+          </div>
+        </div>
+      </div>
+      <h1>
+        New York City
+      </h1>
+      <h6></h6>
+      <div class="details">
+        <div class="icon col-1">
+          <img
+            src="https://res-console.cloudinary.com/dnmdqm4l1/thumbnails/v1/image/upload/v1696992697/c3VuLWljb24tdmVjdG9yX3VjZ3lwbw==/grid_landscape"
+            width="90px"
+          />
+        </div>
+        <div class="col-3 temperatura"><span id="numbers">8</span>
+        <sup>
+        <span class="units">
+        °C
+        </sup></span></div>
+        <div class="col-4 description">
+          Sunny <span id="wkday"> Wednesday</span>
+          <div class="=col-4 descrp2">
+            Humidity: <span id="humidity">10</span> % | Wind: <span id="wind"> 5 </span>m/s
+          </div>
+        </div>
+        
+      </div>
     
-</body>
+
+        <div class="week">
+       
+          <div class="col-md-1" style="width: 14.2857086%;">
+            <strong> Wed| Oct 4</strong>
+            <br/>
+
+            <img
+              class="clima"
+              src="https://res-console.cloudinary.com/dnmdqm4l1/thumbnails/v1/image/upload/v1696992697/c3VuLWljb24tdmVjdG9yX3VjZ3lwbw==/grid_landscape"
+            />
+            <br/>
+            28° | 16°
+      </div>
+          <div class="col-md-1" style="width: 14.2857086%;">
+            <strong> Thu| Oct 5</strong>
+            <br/>
+
+            <img
+              class="clima"
+              src="https://res-console.cloudinary.com/dnmdqm4l1/thumbnails/v1/image/upload/v1696992697/c3VuLWljb24tdmVjdG9yX3VjZ3lwbw==/grid_landscape"
+            />
+            <br/>
+            25° | 15°
+          </div>
+          <div class="col-md-1" style="width: 14.2857086%;">
+            <strong> Fri| Oct 6</strong>
+            <br/>
+            <img
+              class="clima"
+              src="https://res-console.cloudinary.com/dnmdqm4l1/thumbnails/v1/image/upload/v1696992696/cmFpbl9xMHhnbmo=/grid_landscape"
+            />
+            <br/>
+            23° | 17°
+          </div>
+          <div class="col-md-1" style="width: 14.2857086%;">
+            <strong> Sat| Oct 7</strong>
+            <br/>
+            <img
+              class="clima"
+              src="https://res-console.cloudinary.com/dnmdqm4l1/thumbnails/v1/image/upload/v1696992696/cmFpbl9xMHhnbmo=/grid_landscape"
+            />
+            <br/>
+            20° | 13°
+          </div>
+          <div class="col-md-1" style="width: 14.2857086%;">
+            <strong> Sun| Oct 8</strong>
+            <br/>
+            <img
+              class="clima"
+              src="https://res-console.cloudinary.com/dnmdqm4l1/thumbnails/v1/image/upload/v1696992696/Y2xvdWR5Ml96YWFmZm4=/grid_landscape"
+            />
+            <br/>
+            17° | 10°
+          </div>
+          <div class="col-md-1" style="width: 14.2857086%;">
+            <strong> Mon| Oct 9</strong>
+            <br>
+            <img
+              class="clima"
+              src="https://res-console.cloudinary.com/dnmdqm4l1/thumbnails/v1/image/upload/v1696992696/Y2xvdWR5Ml96YWFmZm4=/grid_landscape"
+            />
+            </br>
+            16° | 8°
+          </div>
+          <div class="col-md-1" style="width: 14.2857086%;">
+            <strong> Tue| Oct10</strong>
+            <br/>
+            <img
+              class="clima"
+              src="https://res-console.cloudinary.com/dnmdqm4l1/thumbnails/v1/image/upload/v1696992696/Y2xvdWR5Ml96YWFmZm4=/grid_landscape"
+            />
+            <br/>
+            18° | 11°
+          </div>
+        </div>
+   </div>
+    
+    <p>
+      Coded by
+      <a href="https://www.linkedin.com/in/lara-chagas-mendes/" target="_blank"
+        >Lara Mendes</a
+      >🖤
+    </p>
+
+    <script src="src/index.js"></script>
+  </body>
 </html>
