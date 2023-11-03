@@ -51,7 +51,6 @@ let apiKey = "dda9a648t200432eo3334f85db57e348";
 
 function search2(event) {
   event.preventDefault();
-
   let searchInput = document.querySelector("#search-text-input");
 
   if (searchInput.value) {
@@ -66,6 +65,10 @@ function search2(event) {
 
 let button2 = document.querySelector("#find");
 button2.addEventListener("click", search2);
+
+let form = document.querySelector(".form");
+form.addEventListener("submit", search2);
+
 
 //function unitsf(response) {
 //let temp = Math.round(response.data.temperature.current);
